@@ -69,7 +69,7 @@
     background: rgb(40, 235, 49);
     color: black;
     overflow-wrap: break-word;
-    word-wrap: break-word;
+    word-wrap: anywhere;
     border: none;
     border-radius: 15px;
     box-shadow: 0 7px 15px rgb(235, 118, 235);

@@ -21,7 +21,7 @@ const Items = ({ listaDeTareas, onDelete }) => {
             ) : (
                 listaDeTareas.map((task, i) => (
                     <div className="app-li mx-auto" key={i} style={{ display: 'flex', justifyContent: 'space-between' }}>
-                        <i>- {task.text}</i>
+                        <i>{task.text}</i>
                         <button id={task.id} className="app-li-delete" onClick={() => onDelete(task.id)}>
                             &#10006; {/*x en unicode*/}
                         </button>
